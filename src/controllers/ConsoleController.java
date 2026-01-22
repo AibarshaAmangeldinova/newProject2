@@ -1,5 +1,6 @@
 package com.company.controllers;
 
+import com.company.repositories.BookingRepository;
 import com.company.repositories.Flight_Repository;
 
 import java.util.Scanner;
