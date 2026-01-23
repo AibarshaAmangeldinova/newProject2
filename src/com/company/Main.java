@@ -1,14 +1,10 @@
 package com.company;
 
-import com.company.controllers.TestController;
-
+import com.company.controllers.ConsoleController;
 
 public class Main {
-
-    // Application entry point
     public static void main(String[] args) {
-        new TestController().start();
-
+        new ConsoleController().start();
     }
 }
 
